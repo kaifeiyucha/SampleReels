@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SampleReels</string>
+    <string name="titlename">纳米学位应用</string>
+    <string name="firstItem">热门电影</string>
+    <string name="SecondItem">股票雄鹰</string>
+    <string name="center">XYZ阅读器</string>
+    <string name="ForthItem">最新闻</string>
+    <string name="FinalItem">毕业设计</string>
 </resources>

@@ -5,76 +5,46 @@
 
 
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_reader"
-        android:text="XYZ阅读器"
-        android:layout_centerInParent="true"
-        android:textSize="30sp"
-        android:textColor="#ffffff"
-        android:background="#02B3E4"
-        android:layout_marginBottom="15dp"/>
+        android:text="@string/center"
+        style="@style/CustomButtonStyle"/>
 
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_movie"
         android:layout_above="@+id/btn_shares"
-        android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:text="热门电影"
-        android:textColor="#ffffff"
-        android:background="#02B3E4"
-        android:layout_marginBottom="15dp"/>
+        android:text="@string/firstItem"
+        style="@style/CustomButtonStyle"/>
 
 
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_shares"
-        android:text="股票雄鹰"
-        android:layout_centerHorizontal="true"
+        android:text="@string/SecondItem"
         android:layout_above="@+id/btn_reader"
-        android:textSize="30sp"
-        android:textColor="#ffffff"
-        android:background="#02B3E4"
-        android:layout_marginBottom="15dp"/>
+        style="@style/CustomButtonStyle"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title"
-        android:text="纳米学位应用"
+        android:text="@string/titlename"
         android:layout_above="@id/btn_movie"
         android:gravity="center"
         android:textSize="40sp"
         android:layout_marginBottom="20dp"/>
 
 
-
-
-
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_news"
-        android:text="最新闻"
-        android:layout_centerHorizontal="true"
+        android:text="@string/ForthItem"
         android:layout_below="@+id/btn_reader"
-        android:textSize="30sp"
-        android:textColor="#ffffff"
-        android:background="#02B3E4"
-        android:layout_marginBottom="15dp"/>
+        style="@style/CustomButtonStyle"/>
 
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_graduation"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/btn_news"
-        android:text="毕业设计"
-        android:textSize="30sp"
-        android:textColor="#ffffff"
-        android:background="#02B3E4"/>
+        android:text="@string/FinalItem"
+        style="@style/CustomButtonStyle"/>
+
+
 
 </RelativeLayout>

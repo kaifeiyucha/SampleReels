@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CustomButtonStyle">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#02B3E4</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
 </resources>
