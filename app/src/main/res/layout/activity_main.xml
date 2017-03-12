@@ -9,6 +9,7 @@
         android:text="@string/center"
         style="@style/CustomButtonStyle"/>
 
+
     <Button
         android:id="@+id/btn_movie"
         android:layout_above="@+id/btn_shares"
