@@ -7,21 +7,24 @@
     <Button
         android:id="@+id/btn_reader"
         android:text="@string/center"
-        style="@style/CustomButtonStyle"/>
+        style="@style/CustomButtonStyle"
+        android:onClick="ListenButtonSelf"/>
 
 
     <Button
         android:id="@+id/btn_movie"
         android:layout_above="@+id/btn_shares"
         android:text="@string/firstItem"
-        style="@style/CustomButtonStyle"/>
+        style="@style/CustomButtonStyle"
+        android:onClick="ListenButtonSelf"/>
 
 
     <Button
         android:id="@+id/btn_shares"
         android:text="@string/SecondItem"
         android:layout_above="@+id/btn_reader"
-        style="@style/CustomButtonStyle"/>
+        style="@style/CustomButtonStyle"
+        android:onClick="ListenButtonSelf"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -38,13 +41,15 @@
         android:id="@+id/btn_news"
         android:text="@string/ForthItem"
         android:layout_below="@+id/btn_reader"
-        style="@style/CustomButtonStyle"/>
+        style="@style/CustomButtonStyle"
+        android:onClick="ListenButtonSelf"/>
 
     <Button
         android:id="@+id/btn_graduation"
         android:layout_below="@+id/btn_news"
         android:text="@string/FinalItem"
-        style="@style/CustomButtonStyle"/>
+        style="@style/CustomButtonStyle"
+        android:onClick="ListenButtonSelf"/>
 
 
 
